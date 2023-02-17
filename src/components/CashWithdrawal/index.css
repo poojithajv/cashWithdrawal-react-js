@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #150b3e;
+  width: 40%;
+  height: 90%;
+  padding: 40px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 25px;
+  border-radius: 60px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 22px;
+  color: #d4d2db;
+  margin-left: 15px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance {
+  color: #585076;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.digit {
+  color: #d4d2db;
+  font-size: 26px;
+}
+
+.rupees {
+  color: #585076;
+  font-size: 13px;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #d4d2db;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.para {
+  color: #585076;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.box-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 0px;
+}

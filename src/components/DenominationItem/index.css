@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.button-container {
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.button1 {
+  background-color: #382f5a;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #c4c4c4;
+  box-shadow: beige;
+  color: #c4c4c4;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 15px;
+}
